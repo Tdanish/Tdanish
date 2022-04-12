@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: Roboto;
+}
+
+.tittle {
+  color: green;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link:hover {
+  color: green;
+}
+.list {
+  display: inline;
+  margin: 5px;
+  padding: 10;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  font: 0.7rem;
+}
+/* landing section  */
+.landing_section {
+  text-align: center;
+  padding: 15em;
+  background: url("../img/bg1.jpg");
+  background-size: cover;
+}
+.landing_primarySection {
+  color: green;
+}
+.btn_section {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.imgPart img {
+  height: 365px;
+}
+.display_section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+.highlight_part1 {
+  color: green;
+  margin-top: -20px;
+}
+.display_section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 20px;
+}
+.highlight_part {
+  color: green;
+  margin-top: -20px;
+}
+.imgPart2 img {
+  height: 300px;
+}
+.meal_text {
+  color: green;
+}
+.center_text {
+  text-align: center;
+  margin: 40px;
+}
+.info_meal {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+.meal_collection {
+  display:grid;
+  grid-template-columns: auto, auto;
+  gap: 38px;
+}
